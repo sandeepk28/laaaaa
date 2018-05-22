@@ -1,0 +1,30 @@
+
+
+Here are the Steps
+
+go to the Git Settings
+
+from the left explore  : select GIT (just above the
+Credential)
+
+click upon "Edit Systemwide gitconfig" button
+
+this will open 2 notepad automatically
+
+one is gitconfig text file (Administrator)
+
+another one is config text file (Administrator)
+
+do the following in config text file// paste
+        sslVerify = false just below
+the sslCAInfo line.
+
+[http] 
+
+        sslCAInfo =
+D:/Git/mingw64/ssl/certs/ca-bundle.crt 
+
+        sslVerify = false
+
+ 
+
